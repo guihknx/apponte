@@ -6,11 +6,6 @@ function ($routeProvider, $locationProvider) {
         templateUrl: 'templates/main.html',
         controller: 'MainController',
         controllerAs: 'Main'
-    }).
-    when('/item/:id', {
-        templateUrl: 'templates/item.html',
-        controller: 'ItemController',
-        controllerAs: 'Item'
     }).otherwise({
         redirectTo: '/'
     });

@@ -16,7 +16,7 @@ app.get('/notes', function(req, res){
 
 app.get('/note/:id', function(req, res){
 
-	console.log(req.params)
+
 	Note.find({}, function (err, notes) {
 		if( err ) return res.status(500);
 
@@ -29,7 +29,6 @@ app.put('/note', function(req, res){
 	Note.findById(editedNote._id, function (err, note) {
 		if( err ) return res.status(500);
 
-		console.log(arguments);
 		note.title = editedNote.title;
 		note.content = editedNote.content;
 

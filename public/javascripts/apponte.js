@@ -30808,11 +30808,6 @@ function ($routeProvider, $locationProvider) {
         templateUrl: 'templates/main.html',
         controller: 'MainController',
         controllerAs: 'Main'
-    }).
-    when('/item/:id', {
-        templateUrl: 'templates/item.html',
-        controller: 'ItemController',
-        controllerAs: 'Item'
     }).otherwise({
         redirectTo: '/'
     });
@@ -30847,16 +30842,6 @@ function MainService($http){
 		},
 	};
 };
-angular
-    .module('Apponte')
-    .controller('ItemController', ItemController);
-
-ItemController.$inject = ['$animate','$location', '$rootScope', '$scope', '$routeParams', '$route', 'MainService'];
-
-function ItemController($animate, $location, $rootScope, $scope, $routeParams, $route, MainService){
-
-}
-;
 angular
     .module('Apponte')
     .controller('MainController', MainController);
