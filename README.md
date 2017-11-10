@@ -1,8 +1,8 @@
 # **Apponte**
 
-##Fullstack JS - MEAN application
+*Fullstack JS - MEAN application*
 
-###Getting started
+Getting started
 
 - Clone this project
 - Navigate to it's root directory
