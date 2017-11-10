@@ -1,0 +1,1 @@
+ angular.module('Apponte', ['ngRoute', 'validation', 'validation.rule']);

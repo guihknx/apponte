@@ -1,0 +1,161 @@
+body {
+    background: #F7F7F7;
+}
+
+.container {
+    width: 75%;
+    margin: 0 auto;
+    background: #fff;
+}
+
+.notes {
+    width: 100%;
+    position: relative;
+    margin-top: 3em;
+}
+
+.note .title {
+    display: block;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.note {
+    border-bottom: 1px solid #F7F7F7;
+    padding: 1em 3em;
+    position: relative;
+    min-height: 5em;
+}
+
+
+.note .content {
+    width: 75%;
+    display: inline-block;
+}
+
+.controls {
+    position: absolute;
+    right: 0;
+    top: 1em;
+    right: 2em;
+}
+
+.controls div {
+    background: #F7F7F7;
+    padding: .5em;
+    margin: 1px 0;
+}
+.add-note {
+    background: #1976D2;
+    text-align: center;
+    padding: 1em;
+    color: #fff;
+    text-transform: uppercase;
+    position: fixed;
+    width: 100%;
+    object-fit: contain;
+    width: 75%;
+    padding: 1em 0;
+    top: 0;
+    z-index: 5;
+}
+.view-note.ng-scope.ng-hide {}
+
+.view-note {
+    background: rgba(0, 0, 0, 0.34);
+    position: fixed;
+    width: 100%;
+    left: 0;
+    z-index: 9;
+    top: 0;
+    bottom: 0;
+}
+
+.view-note .inner {
+    background: #F3F3F3;
+    width: 50%;
+    margin: 0 auto;
+    padding: 2em;
+    overflow: hidden;
+    min-height: 100%;
+    position: relative;
+    /* padding-top: 10%; */
+}
+
+.view-note input ,.view-note textarea {
+    display: block;
+    width: calc(100% - 2em);
+    margin: 0 0 1em 0;
+    border: none;
+    padding: 1em;
+    border-radius: 2px;
+
+}
+.view-note input {
+    display: block;
+    width: calc(100% - 2em);
+}
+
+.view-note textarea {
+    height: 4em;
+    display: block;
+    height: 19em;
+}
+.close {
+    position: absolute;
+    right: 0em;
+    top: 0em;
+    background: #717171;
+    font-size: 2em;
+    width: 1em;
+    height: 1em;
+    text-align: center;
+    line-height: 0.8em;
+    cursor: pointer;
+}
+
+.close:hover {
+    background: red;
+    color: #fff;
+}
+
+button {
+    background: white;
+    border: none;
+    padding: 1em;
+    width: 9em;
+    /* display: block; */
+    color: #5E5E5E;
+    border: none;
+}
+
+.view-note span {
+    display: block;
+}
+
+button.save {
+    background: #2196F3;
+    color: #fff;
+}
+
+.view-note button {
+    /* width: 50%; */
+    /* width: 50%; */
+    na: m;
+    margin: 0;
+    display: inline-block;
+    border-radius: 2px;
+}
+textarea.ng-invalid, input.ng-invalid {
+    border: 1px solid red;
+}
+
+p.validation-invalid.ng-scope {
+    border: none;
+    padding: .5em;
+    background: #F44336;
+    color: #fff;
+    a,: 1;
+    margin: 1em 0;
+    border-radius: 2px;
+}
