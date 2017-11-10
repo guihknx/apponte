@@ -8,7 +8,6 @@ var util = require('util')
 
 mongoose.connect('mongodb://127.0.0.1:27017/apponte');
 
-// console.log(mongoose.connection)
 
 app.use(express.static(__dirname + '/public'));	
 
